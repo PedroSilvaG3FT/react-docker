@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
+import Routes from "./Routes";
 
 function App() {
-  return <h1>Coder Solution</h1>;
+  return <Routes />;
 }
 
 export default App;

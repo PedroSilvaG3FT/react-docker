@@ -1,0 +1,11 @@
+.span-text {
+  color: #999;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.form {
+  width: 100%;
+  margin-top: 50px;
+}
