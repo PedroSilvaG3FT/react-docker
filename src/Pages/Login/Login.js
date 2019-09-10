@@ -30,31 +30,6 @@ export default function Login({ history }) {
     history.push("/registerUser");
   }
 
-  // return (
-  //   <div className="login-container">
-  //     <form onSubmit={logar}>
-  //       <img src={logo} alt="BackOffice" />
-  //       <input
-  //         placeholder="Insira o seu email"
-  //         value={userEmail}
-  //         onChange={e => setUserEmail(e.target.value)}
-  //       />
-  //       <input
-  //         type="password"
-  //         placeholder="Insira sua senha"
-  //         value={userPassword}
-  //         onChange={e => setPassword(e.target.value)}
-  //       />
-
-  //       <button type="submit " className="button-primary">
-  //         Entrar
-  //       </button>
-  //       <div className="span-text">
-  //         <span onClick={goToregister}>Cadastre-se</span>
-  //       </div>
-  //     </form>
-  //   </div>
-  // );
   return (
     <Container component="main" maxWidth="xs">
       <CssBaseline />
