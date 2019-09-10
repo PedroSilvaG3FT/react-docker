@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "./Login.css";
 import logo from "../../assets/img/event.svg";
 
-export default function Login() {
+export default function Login({ history }) {
   const [userEmail, setUserEmail] = useState("");
   const [userPassword, setPassword] = useState("");
 
   function logar(e) {
     e.preventDefault();
 
+    history.push("/home");
     console.log(userEmail, userPassword);
   }
 
