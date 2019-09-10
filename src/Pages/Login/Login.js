@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Login.css";
-import logo from "../../assets/img/event.svg";
 
 //MATERIAL-UI
 import Button from "@material-ui/core/Button";
@@ -25,8 +24,6 @@ export default function Login({ history }) {
   }
 
   function goToregister() {
-    const id = 1;
-
     history.push("/registerUser");
   }
 
