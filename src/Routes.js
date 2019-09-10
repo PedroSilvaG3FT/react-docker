@@ -9,7 +9,7 @@ export default function Routes() {
   return (
     <BrowserRouter>
       <Route path="/" exact component={Login} />
-      <Route path="/home" component={Home} />
+      <Route path="/home/:id" component={Home} />
     </BrowserRouter>
   );
 }

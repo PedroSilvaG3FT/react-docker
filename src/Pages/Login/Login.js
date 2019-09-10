@@ -6,10 +6,13 @@ export default function Login({ history }) {
   const [userEmail, setUserEmail] = useState("");
   const [userPassword, setPassword] = useState("");
 
-  function logar(e) {
+  async function logar(e) {
     e.preventDefault();
+    if (userEmail === "coder@teste.com" && userPassword === "cs") {
+      const id = await 1;
+      history.push(`/home/${id}`);
+    }
 
-    history.push("/home");
     console.log(userEmail, userPassword);
   }
 
