@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import Login from "./Pages/Login/Login";
+import Routes from "./Routes";
 
 function App() {
-  return <Login />;
+  return <Routes />;
 }
 
 export default App;
