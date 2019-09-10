@@ -1,8 +1,9 @@
 import React from "react";
 import "./App.css";
+import Login from "./Pages/Login/Login";
 
 function App() {
-  return <h1>Coder Solution</h1>;
+  return <Login />;
 }
 
 export default App;
